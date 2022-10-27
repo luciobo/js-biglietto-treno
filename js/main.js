@@ -28,7 +28,6 @@ if (userAgeNumber < 18) {
 
 
 
-
 /* 
 1 se l'user age number ha meno di 18 anni applico lo sconto di 20 %
 2 
