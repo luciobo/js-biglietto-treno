@@ -22,9 +22,9 @@ if (userAgeNumber < 18) {
     var prezzoBigliettoScontato = prezzoBiglietto - (prezzoBiglietto * 60 / 100)
     console.log(prezzoBigliettoScontato)
 } else {
-    var prezzoBiglietto = (userChilometers * 0.21)
+    let prezzoBigliettoIntero = (userChilometers * 0.21)
+    console.log(prezzoBigliettoIntero)
 }
-
 
 
 
