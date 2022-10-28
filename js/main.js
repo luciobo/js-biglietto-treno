@@ -8,7 +8,7 @@ const userChilometers = parseInt(prompt("quanti chilometri vuoi percorrere"))
 
 console.log(userChilometers)
 
-var prezzoBiglietto = (userChilometers * 0.21)
+let prezzoBiglietto = (userChilometers * 0.21)
 
 console.log(prezzoBiglietto)
 
@@ -16,10 +16,10 @@ console.log(typeof userAge, typeof userAgeNumber, userAge, userAgeNumber)
 
 
 if (userAgeNumber < 18) {
-    var prezzoBigliettoScontato = prezzoBiglietto - (prezzoBiglietto * 20 / 100)
+    let prezzoBigliettoScontato = prezzoBiglietto - (prezzoBiglietto * 20 / 100)
     console.log(prezzoBigliettoScontato)
 } else if (userAgeNumber > 65) {
-    var prezzoBigliettoScontato = prezzoBiglietto - (prezzoBiglietto * 60 / 100)
+    let prezzoBigliettoScontato = prezzoBiglietto - (prezzoBiglietto * 60 / 100)
     console.log(prezzoBigliettoScontato)
 } else {
     let prezzoBigliettoIntero = (userChilometers * 0.21)
